@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #26badb;
+    --cor-hover: #272727;
+}
+
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    color: white;
+    height: 100vh;
+}
+
+
+.cabecalho-links{
+    display: flex;
+    gap:3em;
+    padding-right: 3%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo-lerescola{
+    width: 5em;
+    }
+
+.links-cabecalho{
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-decoration: none;
+    border: outset 5px #196a7c;
+    padding:0.5em;
+    background-color: var(--cor-terciaria);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.links-cabecalho:hover{
+
+    background-color: var(--cor-hover);
+
+}
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.cabecalho-elementos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    
+}
+
+.carrossel-banner-imagem{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-carrossel{
+    width: 65%;
+    margin: 3%;
+    border-radius: 8px;
+}
+
+.descricao-carrossel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-carrossel{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1em;
+    
+
+
+}
+
+.btn-carrossel-inferior{
+    width: 2%;
+    height:0.7em;
+    margin: 0.2em;
+    border-radius: 8px;
+    
+}
+
+.carrossel-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.paragrafo-carrossel{
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.carrossel-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    line-height: 3em;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.rodape-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-contatos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape-btn-area1{
+    display: flex;
+    gap:2em;
+    margin: 1em;
+    
+}
+
+.rodape-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.img-btn{
+    width: 2.2em;
+    height: 2em;
+    
+}
+
+.paragrafo-base{
+    font-size: 1.3em;
+}
+
+.links-rodape{
+    display: flex;
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-decoration: none;
+    border: outset 5px #196a7c;
+    padding:0.5em;
+    background-color: var(--cor-terciaria);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+
+}
+
+.links-rodape:hover{
+
+    background-color: var(--cor-hover);
+
+}
+
+.img-btn-face{
+
+    width: 2.8em;
+    height: 2em;
+
+}
+
+.card-conteudo{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.card-conteudo{
+
+    width: 100%;
+    height: 10em;
+
+}
+
+.card-body{
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-imagem{
+
+    width: 100%;
+    height: 30em;
+}
+
+.card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.col{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-cards{
+    margin: 3em;
+}
+
+/* AREA DE LOGIN */
+
+.mb-3{
+    width:100% ;
+    margin: 2em;
+    padding: 2em;
+
+}
+
+.area-de-login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 30%;
+    border: solid 1px white;
+    border-radius: 8px;
+}
+
+.btn-login{
+
+    margin-bottom: 1.5em;
+}
+
+
+
+
+
+
+
+
